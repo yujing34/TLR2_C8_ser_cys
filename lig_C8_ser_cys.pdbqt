@@ -1,0 +1,127 @@
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_10 
+REMARK    4  A    between atoms: SG_6  and  CB_5 
+REMARK    5  A    between atoms: SG_6  and  C20_29 
+REMARK    6  A    between atoms: N_10  and  CA_11 
+REMARK    7  A    between atoms: CA_11  and  C_12 
+REMARK    8  A    between atoms: CA_11  and  CB_14 
+REMARK    9  A    between atoms: CB_14  and  OG_15 
+REMARK   10  A    between atoms: C10_19  and  C11_20 
+REMARK   11  A    between atoms: C11_20  and  C12_21 
+REMARK   12  A    between atoms: C12_21  and  C13_22 
+REMARK   13  A    between atoms: C13_22  and  C14_23 
+REMARK   14  A    between atoms: C14_23  and  C15_24 
+REMARK   15  A    between atoms: C15_24  and  C16_25 
+REMARK   16  A    between atoms: C16_25  and  O17_26 
+REMARK   17  A    between atoms: C18_27  and  O17_26 
+REMARK   18  A    between atoms: C18_27  and  C19_28 
+REMARK   19  A    between atoms: C19_28  and  C20_29 
+REMARK   20  A    between atoms: C19_28  and  O21_30 
+REMARK   21  A    between atoms: C22_31  and  O21_30 
+REMARK   22  A    between atoms: C22_31  and  C23_32 
+REMARK   23  A    between atoms: C23_32  and  C24_33 
+REMARK   24  A    between atoms: C24_33  and  C25_34 
+REMARK   25  A    between atoms: C25_34  and  C26_35 
+REMARK   26  A    between atoms: C26_35  and  C27_36 
+REMARK   27  A    between atoms: C27_36  and  C28_37 
+ROOT
+ATOM      1  N   CYS C  11      28.536 -42.247  40.877  1.00 65.49    -0.066 N 
+ATOM      2  H1  CYS C  11      29.226 -41.637  41.290  1.00  0.00     0.275 HD
+ATOM      3  H2  CYS C  11      28.530 -42.118  39.875  1.00  0.00     0.275 HD
+ATOM      4  H3  CYS C  11      28.764 -43.207  41.092  1.00  0.00     0.275 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  CYS C  11      27.220 -41.928  41.415  1.00 62.30     0.283 C 
+BRANCH   5   6
+ATOM      6  CB  CYS C  11      26.166 -42.844  40.798  1.00 62.83     0.116 C 
+BRANCH   6   7
+ATOM      7  SG  CYS C  11      26.205 -42.915  39.006  1.00 77.56    -0.164 SA
+BRANCH   7   8
+HETATM    8  C20 PXS C 581      25.451 -41.345  38.619  1.00 78.99     0.108 C 
+BRANCH   8   9
+HETATM    9  C19 PXS C 581      25.402 -41.170  37.236  1.00 77.33     0.165 C 
+BRANCH   9  10
+HETATM   10  C18 PXS C 581      24.564 -42.308  36.629  1.00 68.25     0.212 C 
+BRANCH  10  11
+HETATM   11  O17 PXS C 581      23.546 -41.948  35.721  1.00 61.92    -0.319 OA
+BRANCH  11  12
+HETATM   12  C16 PXS C 581      23.109 -42.942  34.822  1.00 59.74     0.258 C 
+HETATM   13  O39 PXS C 581      23.042 -44.075  35.168  1.00 63.98    -0.265 OA
+BRANCH  12  14
+HETATM   14  C15 PXS C 581      22.775 -42.553  33.365  1.00 54.89     0.111 C 
+BRANCH  14  15
+HETATM   15  C14 PXS C 581      21.805 -43.500  32.625  1.00 58.40     0.010 C 
+BRANCH  15  16
+HETATM   16  C13 PXS C 581      20.395 -42.892  32.416  1.00 67.63     0.000 C 
+BRANCH  16  17
+HETATM   17  C12 PXS C 581      19.162 -43.782  32.679  1.00 64.29     0.000 C 
+BRANCH  17  18
+HETATM   18  C11 PXS C 581      17.833 -43.169  32.205  1.00 62.36    -0.000 C 
+BRANCH  18  19
+HETATM   19  C10 PXS C 581      16.557 -43.544  32.976  1.00 59.65    -0.005 C 
+HETATM   20  C09 PXS C 581      15.365 -42.574  32.798  1.00 53.70     0.005 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+BRANCH   9  21
+HETATM   21  O21 PXS C 581      24.791 -40.067  36.909  1.00 79.60    -0.313 OA
+BRANCH  21  22
+HETATM   22  C22 PXS C 581      25.385 -39.269  35.922  1.00 71.85     0.259 C 
+HETATM   23  O38 PXS C 581      26.355 -39.657  35.358  1.00 64.39    -0.265 OA
+BRANCH  22  24
+HETATM   24  C23 PXS C 581      24.798 -37.859  35.712  1.00 67.97     0.111 C 
+BRANCH  24  25
+HETATM   25  C24 PXS C 581      24.568 -37.412  34.252  1.00 63.67     0.010 C 
+BRANCH  25  26
+HETATM   26  C25 PXS C 581      23.462 -38.126  33.438  1.00 67.15     0.000 C 
+BRANCH  26  27
+HETATM   27  C26 PXS C 581      22.338 -38.828  34.215  1.00 60.72     0.000 C 
+BRANCH  27  28
+HETATM   28  C27 PXS C 581      21.045 -37.996  34.327  1.00 55.00    -0.000 C 
+BRANCH  28  29
+HETATM   29  C28 PXS C 581      19.841 -38.485  33.496  1.00 58.87    -0.005 C 
+HETATM   30  C29 PXS C 581      18.797 -39.328  34.264  1.00 62.24     0.005 C 
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+ENDBRANCH   9  21
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   5  31
+ATOM     31  C   CYS C  11      27.284 -42.164  42.899  1.00 64.07     0.249 C 
+ATOM     32  O   CYS C  11      28.245 -42.745  43.375  1.00 67.54    -0.271 OA
+ATOM     33  N   SER C  12      26.275 -41.732  43.642  1.00 61.26    -0.345 N 
+ATOM     34  H   SER C  12      25.515 -41.215  43.224  1.00  0.00     0.163 HD
+BRANCH  33  35
+ATOM     35  CA  SER C  12      26.279 -42.014  45.071  1.00 79.27     0.186 C 
+BRANCH  35  36
+ATOM     36  C   SER C  12      25.040 -42.751  45.545  1.00 96.47     0.221 C 
+ATOM     37  O   SER C  12      23.947 -42.535  45.032  1.00 98.76    -0.287 OA
+ENDBRANCH  35  36
+BRANCH  35  38
+ATOM     38  CB  SER C  12      26.499 -40.746  45.895  1.00 65.91     0.197 C 
+BRANCH  38  39
+ATOM     39  OG  SER C  12      25.913 -39.629  45.275  1.00 72.03    -0.398 OA
+ATOM     40  HG  SER C  12      26.065 -38.848  45.812  1.00  0.00     0.209 HD
+ENDBRANCH  38  39
+ENDBRANCH  35  38
+ENDBRANCH  33  35
+ENDBRANCH   5  31
+ENDBRANCH   1   5
+TORSDOF 27
